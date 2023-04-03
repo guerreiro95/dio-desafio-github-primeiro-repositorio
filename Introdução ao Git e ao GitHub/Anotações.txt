@@ -1,2 +1,9 @@
 Link para download do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+# Como fazer o push de itens alterados do Local para o GitHub
+
+git status (mostra o status dos itens atuais)
+git add . (coloca os arquivos em estado de diponibilidade para upar, demonstrando a intenção de subir o arquivo)
+git commit -m "Descrição da ação" (Realiza o commit do arquivo)
+git push origin main (Realiza o push do commit)
